@@ -1,13 +1,13 @@
 {
-	"name": "-----------",
-	"description": "-----------",
-	"homepage": "-----------",
+	"name": "2018-kotex-room-escape",
+	"description": "[搬移]Kotex你，能逃出第二夜嗎？",
+	"homepage": "https://github.com/jameshsu1125/2018-kotex-room-escape",
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack serve --hot",
 		"build": "NODE_ENV=production webpack",
 		"rm": "rm -rf node_modules/ package-lock.json",
-		"deploy": "touch dist/.nojekyll && gh-pages -d dist -t true",
+		"deploy": "touch static/.nojekyll && gh-pages -d static -t true",
 		"lint": "eslint src/*.js",
 		"ff": "node fonts/ff.js"
 	},
